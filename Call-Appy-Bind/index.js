@@ -32,7 +32,7 @@ const newFunc = obj.func.bind(obj3);
 
 // Output based question
 
-var newObj = { name: "Piyush" };
+var newObj = { name: "Arshad" };
 
 function sayHello() {
   return "Hello " + this.name;
@@ -44,6 +44,17 @@ function sayHello() {
   return "Hello " + this.name;
 }
 
-var secondObk = { name: "Piyush" };
+var secondObk = { name: "Shah rukh khan" };
 
-sayHello.call(secondObk); 
+sayHello.call(secondObk);
+
+
+
+
+
+
+
+
+
+
+
