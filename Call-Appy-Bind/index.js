@@ -44,17 +44,6 @@ function sayHello() {
   return "Hello " + this.name;
 }
 
-var secondObk = { name: "Shah rukh khan" };
+var secondObk = { name: "Shah Rukh khan" };
 
 sayHello.call(secondObk);
-
-
-
-
-
-
-
-
-
-
-
